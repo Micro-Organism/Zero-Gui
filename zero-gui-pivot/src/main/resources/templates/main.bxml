@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Window PUBLIC "-//Apache Pivot//DTD BXML 2.0//EN" "http://pivot.apache.org/dtd/bxml-2.0.dtd">
+<Window xmlns="http://pivot.apache.org/bxml" styles="${resources['/static/styles.css']}" title="首页" maximized="true">
+    <BorderPane>
+        <BorderPane.top>
+            <Label text="欢迎来到首页" styles="{font:'Arial bold 24'}"/>
+        </BorderPane.top>
+        <BorderPane.center>
+            <PushButton buttonData="点击我" styles="{font:'Arial 18'}" action="onButtonClick"/>
+        </BorderPane.center>
+    </BorderPane>
+</Window>
